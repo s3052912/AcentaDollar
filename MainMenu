@@ -20,7 +20,7 @@
 </div>
 
 <div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
   <a href="#">Income</a>
   <a href="#">Expense</a>
   <a href="#">Savings Goal</a>
