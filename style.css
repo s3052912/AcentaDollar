@@ -136,3 +136,15 @@ a{
   float: right;
   background-color: grey;
 }
+
+.loginimage img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  width: 30%;
+  border-radius: 20px;
+  border-color: #0C6861;
+  border-style: solid;
+  border-width: 2px;
+}
