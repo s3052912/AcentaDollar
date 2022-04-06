@@ -3,7 +3,7 @@
 }
 
 .heading {
-  color: darkgrey;
+  color: black;
   position: sticky;
   text-align: center;
 }
@@ -75,7 +75,7 @@ body {
 
 /* stylesheet for login page - need to figure out how to link that page only*/
 
-body {
+.login body {
   margin: 0;
   padding: 0;
   font-family: 'Arial';
@@ -97,7 +97,7 @@ body {
   padding: 20px;
 }
 
-label {
+.login label {
   color: #08ffd1;
   font-size: 17px;
 }
@@ -127,12 +127,12 @@ label {
   color: blue;
   }
 
-span {
+.login span {
   color: white;
   font-size: 17px;
 }
 
-a{
+.login a{
   float: right;
   background-color: grey;
 }
