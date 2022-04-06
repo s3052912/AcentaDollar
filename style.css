@@ -1,13 +1,10 @@
-{
-  font-family: "Lato", sans-serif;
-}
-
 .heading {
   color: black;
   position: sticky;
   text-align: center;
+  font-family: "Arial", sans-serif;
 }
-
+/*background image css*/
 body {
   background-image: url("img/loginbackground.jpeg");
   background-repeat: no-repeat;
@@ -15,6 +12,7 @@ body {
   background-size: cover;
 }
 
+/*pop out menu css*/
 .sidebar {
   height: 100%;
   width: 0;
@@ -73,12 +71,11 @@ body {
   .sidebar a {font-size: 18px;}
 }
 
-/* stylesheet for login page - need to figure out how to link that page only*/
-
+/* login page css*/
 .login body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial';
+  font-family: "Arial", sans-serif;
 }
 
 .login {
@@ -147,4 +144,131 @@ body {
   border-color: #0C6861;
   border-style: solid;
   border-width: 3px;
+}
+
+/*forgot password css*/
+.forgotpassword body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.forgotpassword {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px ;
+}
+
+.forgotpassword h2 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.forgotpassword label {
+  color: #08ffd1;
+  font-size: 17px;
+}
+
+#Email {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+
+#Submit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+  }
+
+.forgotpassword span {
+  color: white;
+  font-size: 17px;
+}
+
+.forgotpassword a{
+  float: right;
+  background-color: grey;
+}
+
+/* create account css*/
+.createaccount body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.createaccount {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px ;
+}
+
+.createaccount h2 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.createaccount label {
+  color: #08ffd1;
+  font-size: 17px;
+}
+
+#Email{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Pass{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Submit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+  }
+
+.createaccount span {
+  color: white;
+  font-size: 17px;
+}
+
+.createaccount a{
+  float: right;
+  background-color: grey;
 }
