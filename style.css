@@ -192,6 +192,15 @@ body {
   color: blue;
   }
 
+#Back {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
 .forgotpassword span {
   color: white;
   font-size: 17px;
@@ -262,6 +271,15 @@ body {
   padding-left: 7px;
   color: blue;
   }
+
+#Back {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
 
 .createaccount span {
   color: white;
