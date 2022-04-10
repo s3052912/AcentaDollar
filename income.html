@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+    <title>Income</title>
+  </head>
+  <body>
+    <div class="incomeheader"> <h1>Welcome to the AcentaDollar Finance & Budgeting Manager</h1>
+    <h2>Please fill out the form below to add an income to your profile</h2></div>
 
-<h1>Add Income</h1>
-<p>TBA</p>
+    <div class="income">
+    <form id="income" method="get" action="https://ashoconnor.github.io/AcentaDollar/mainmenu">
+        <label><b> Add Expense Name
+        </b>
+        </label>
+        <input type="text" name="Income" id="Income" placeholder="Income Name">
+        <br><br>
+        <label><b>Add Expense Date
+        </b>
+        </label>
+        <input type="date" name="Date" id="Date" placeholder="Enter Date">
+        <br><br>
+        <label><b>Enter Expense Price
+        </b>
+        </label>
+        <input type="number" name="Price" id="Price" placeholder="Price">
+        <br><br>
+        <input type="button" name="Submit" id="Submit" value="Submit" onclick="myFunction()">
+        <br><br>
+        <input type="button" name="Back" id="Back" value="Back" onclick="location.href='https://ashoconnor.github.io/AcentaDollar/'">
+        <br><br>
+      </form>
+      <p id="message"></p>
 
-</body>
+<script>
+function myFunction() {
+  document.getElementById("message").innerHTML = "Income added to your profile. Please press back to go back to the main menu.";
+}
+</script>
+     </div>
+  </body>
 </html>

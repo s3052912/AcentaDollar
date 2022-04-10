@@ -88,6 +88,12 @@ body {
   border-radius: 15px ;
 }
 
+.loginheader h1 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
 .loginheader h2 {
   text-align: center;
   color: #277582;
@@ -163,7 +169,13 @@ body {
   border-radius: 15px ;
 }
 
-.forgotpassword h2 {
+.forgotpasswordheader h1 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.forgotpasswordheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
@@ -228,7 +240,13 @@ body {
   border-radius: 15px ;
 }
 
-.createaccount h2 {
+.createaccountheader h1 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.createaccountheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
@@ -287,6 +305,178 @@ body {
 }
 
 .createaccount a{
+  float: right;
+  background-color: grey;
+}
+
+/*expense css*/
+.expense body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.expense {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px ;
+}
+
+.expenseheader h1 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.expenseheader h2 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.expense label {
+  color: #08ffd1;
+  font-size: 17px;
+}
+
+#Expense{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Date {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Price{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Submit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+  }
+
+#Back {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
+.expense span {
+  color: white;
+  font-size: 17px;
+}
+
+.expense a{
+  float: right;
+  background-color: grey;
+}
+
+/*income css*/
+.income body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.income {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px ;
+}
+
+.incomeheader h1 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.incomeheader h2 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.income label {
+  color: #08ffd1;
+  font-size: 17px;
+}
+
+#Income{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Date {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Price{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Submit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+  }
+
+#Back {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
+.income span {
+  color: white;
+  font-size: 17px;
+}
+
+.income a{
   float: right;
   background-color: grey;
 }
