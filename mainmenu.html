@@ -5,6 +5,7 @@
     <title>Home</title>
     <link href="style.css" rel="stylesheet">
 </head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 <body>
 
 <div id="myHeading" class="heading">
@@ -36,6 +37,32 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
 }
+</script>
+
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+var xValues = ["Income", "Expense",];
+var yValues = [55, 49];
+var barColors = ["#b91d47","#00aba9",];
+
+new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Income vs Expense"
+    }
+  }
+});
 </script>
 
 </body>
