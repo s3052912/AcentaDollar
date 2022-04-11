@@ -535,3 +535,89 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*savingsgoal css*/
+.savings body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.savings {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px ;
+}
+
+.savingsheader h1 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.savingsheader h2 {
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.savings label {
+  color: #08ffd1;
+  font-size: 17px;
+}
+
+#Savings{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Date {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Price{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#Submit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+  }
+
+#Back {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
+.savings span {
+  color: white;
+  font-size: 17px;
+}
+
+.savings a{
+  float: right;
+  background-color: grey;
+}

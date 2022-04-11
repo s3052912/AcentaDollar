@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+    <title>Savings Goal</title>
+  </head>
+  <body>
+    <div class="savingsheader"> <h1>AcentaDollar Finance & Budgeting Manager</h1>
+    <h2>Please fill out the form below to add a savings goal to your profile</h2></div>
 
-<h1>Savings Goal</h1>
-<p>TBA</p>
+    <div class="savings">
+    <form id="savings" method="get" action="https://ashoconnor.github.io/AcentaDollar/mainmenu">
+        <label><b> Add Savings Goal Name
+        </b>
+        </label>
+        <input type="text" name="Savings" id="Savings" placeholder="Savings Goal Name">
+        <br><br>
+        <label><b>Add Savings Goal Due Date
+        </b>
+        </label>
+        <input type="date" name="Date" id="Date" placeholder="Enter Date">
+        <br><br>
+        <label><b>Enter Savings Amount
+        </b>
+        </label>
+        <input type="number" name="Price" id="Price" placeholder="Price">
+        <br><br>
+        <input type="button" name="Submit" id="Submit" value="Submit" onclick="myFunction()">
+        <br><br>
+        <input type="button" name="Back" id="Back" value="Back" onclick="location.href='https://ashoconnor.github.io/AcentaDollar/mainmenu'">
+        <br><br>
+      </form>
+      <p id="message"></p>
 
-</body>
+<script>
+function myFunction() {
+  document.getElementById("message").innerHTML = "Savings Goal added to your profile. Please press back to go back to the main menu.";
+}
+</script>
+     </div>
+  </body>
 </html>
