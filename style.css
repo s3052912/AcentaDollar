@@ -1,7 +1,7 @@
 .heading {
-  color: black;
-  position: sticky;
   text-align: center;
+  color: #277582;
+  padding: 20px;
   font-family: "Arial", sans-serif;
 }
 /*background image css*/
