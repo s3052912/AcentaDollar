@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+    <title>Forgot Password</title>
+  </head>
+  <body>
+    <div class="forgotpasswordheader"> <h1>AcentaDollar Finance & Budgeting Manager</h1>
+    <h2>Please fill out the form below to reset your password</h2></div>
+
+    <div class="forgotpassword">
+    <form id="forgotpassword" method="get" action="https://ashoconnor.github.io/AcentaDollar/mainmenu">
+        <label><b>Enter Email
+        </b>
+        </label>
+        <input type="text" name="Email" id="Email" placeholder="Email">
+        <br><br>
+        <br><br>
+        <input type="button" name="Submit" id="Submit" value="Submit" onclick="myFunction()">
+        <br><br>
+        <input type="button" name="Back" id="Back" value="Back" onclick="location.href='https://ashoconnor.github.io/AcentaDollar/'">
+        <br><br>
+      </form>
+     <p id="message"></p>
+
+<script>
+function myFunction() {
+ document.getElementById("message").innerHTML = "Submission completed. Please check your emails to reset your password. Then head on back to the login screen.";
+}
+</script>
+    </div>
+  </body>
+</html>
