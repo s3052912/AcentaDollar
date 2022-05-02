@@ -35,6 +35,7 @@ body {
   color: green;
   display: block;
   transition: 1.3s;
+  font-family: "Arial", sans-serif;
 }
 
 .sidebar a:hover {
@@ -47,6 +48,7 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  font-family: "Arial", sans-serif;
 }
 
 .openbtn {
@@ -100,11 +102,13 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .login label {
   color: #08ffd1;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 #Uname {
@@ -135,6 +139,7 @@ body {
 .login span {
   color: white;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 .login a{
@@ -175,17 +180,20 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .forgotpasswordheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .forgotpassword label {
   color: #08ffd1;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 #Email {
@@ -204,6 +212,7 @@ body {
   border-radius: 17px;
   padding-left: 7px;
   color: blue;
+  font-family: "Arial", sans-serif;
   }
 
 #Back {
@@ -213,11 +222,13 @@ body {
     border-radius: 17px;
     padding-left: 7px;
     color: blue;
+    font-family: "Arial", sans-serif;
 }
 
 .forgotpassword span {
   color: white;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 .forgotpassword a{
@@ -246,17 +257,20 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .createaccountheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .createaccount label {
   color: #08ffd1;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 #Email{
@@ -332,17 +346,20 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .expenseheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .expense label {
   color: #08ffd1;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 #Expense{
@@ -390,6 +407,7 @@ body {
 .expense span {
   color: white;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 .expense a{
@@ -418,17 +436,20 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .incomeheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .income label {
   color: #08ffd1;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 #Income{
@@ -476,6 +497,7 @@ body {
 .income span {
   color: white;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 .income a{
@@ -488,12 +510,14 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .searchheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .search {
@@ -527,6 +551,7 @@ body {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -559,17 +584,20 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .savingsheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .savings label {
   color: #08ffd1;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 #Savings{
@@ -617,6 +645,7 @@ body {
 .savings span {
   color: white;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 .savings a{
@@ -645,17 +674,20 @@ body {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .forgotusernameheader h2 {
   text-align: center;
   color: #277582;
   padding: 20px;
+  font-family: "Arial", sans-serif;
 }
 
 .forgotusername label {
   color: #08ffd1;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 #Email {
@@ -688,6 +720,7 @@ body {
 .forgotusername span {
   color: white;
   font-size: 17px;
+  font-family: "Arial", sans-serif;
 }
 
 .forgotusername a{
